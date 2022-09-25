@@ -1,0 +1,51 @@
+h1{
+    color: red;
+}
+
+a{
+    color: #FF00FF ;
+    font-size: 20px;
+}
+
+a:hover{
+    color: #31049b ;
+}
+
+.abc{
+    color: blue;
+    text-shadow: 2px 3px red;
+}
+
+.bg{
+  background-color: #99CCFF;
+}
+
+.black{
+  background-image: url("../images/1.png");
+}
+
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0055FF;
+  }   
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #9933FF;
+  }
+
