@@ -13,9 +13,23 @@
 
 <body class="black">
 
-<h1>login</h1>
+    <h1>login</h1>
 
-<?php
+
+
+
+    <form action="register.php" method="post" enctype="multipart/form-data">
+        first name <input type="text" name="firstname" /><br />
+        last name <input type="text" name="lastname" /> <br />
+        email <input type="email" name="email" /> <br />
+        password <input type="" name="password" /> <br />
+        address <textarea rows=" 5" cols="50" name="address"> </textarea><br />
+        input type="submit" value="ลงทะเบียณ" />
+
+
+    </form>
+
+    <?php
 include"navbar.php";
 ?>
 
